@@ -9,7 +9,7 @@ def alphabetize(arr)
     if item.start_with?(item[0]) 
       arr.sort 
     end
-  
+  end
     
  # arr.each do |i|
   #  str.each_char do |char|
@@ -22,5 +22,5 @@ def alphabetize(arr)
   #  new_array.push(item[0])
  # end
  # new_array
-  end
+  
 end
