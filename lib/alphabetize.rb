@@ -5,7 +5,7 @@ def alphabetize(arr)
   # code here
   str ="abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   
-  if arr.find_all? {|item| if item.start_with?("item[0") then arr.sort end}
+  if arr.find_all {|item| if item.start_with?("item[0") then arr.sort end}
   
   else
     
