@@ -1,7 +1,7 @@
 
 def alphabetize(arr)
  # hash={}
-  new_array=[]
+ # new_array=[]
   # code here
   str ="abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   
