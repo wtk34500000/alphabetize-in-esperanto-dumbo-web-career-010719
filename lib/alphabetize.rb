@@ -4,7 +4,11 @@ def alphabetize(arr)
   new_array=[]
   # code here
   str ="abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-
+  
+  if arr.find_all? {|item| if item.start_with?("item[0") then arr.sort end}
+    
+    
+    
   arr.each do |i|
     str.each_char do |char|
       if i[0] == char
