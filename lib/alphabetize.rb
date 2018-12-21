@@ -5,7 +5,7 @@ def alphabetize(arr)
   str ="abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   
    if arr.all? {|item| item.start_with?(arr.first[0])}
-    arry.sort
+      return arry.sort
   else
     arr.each do |i|
     str.each_char do |char|
